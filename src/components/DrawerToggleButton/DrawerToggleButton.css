@@ -1,0 +1,18 @@
+/*Style 'show menu' label button and hide it by default*/
+.toggle-button {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 37px;
+    background: transparent;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    display: block;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    /*hide the toggle button on tablet and desktop*/
+    .toggle-button {
+        display: none;
+    }
+}
